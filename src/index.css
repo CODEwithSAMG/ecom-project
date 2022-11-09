@@ -1,13 +1,178 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: url(1.jpg); */
+  background-size: cover;
+  background-color: rgba(black, 0.5);
+}
+
+* {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.background-nav {
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 19px grey;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.content {
+  background: url(2.jpg);
+  background-size: cover;
+  height: 90vh;
+  opacity: 0.6;
+}
+
+.footer {
+  background-color: rgb(43 25 74);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 800;
+}
+.navbar-nav .nav-link:hover {
+  color: rgb(231, 29, 29) !important;
+}
+
+.navbar-brand {
+  color: black;
+}
+.navbar-brand:hover {
+  color: rgb(231, 29, 29);
+}
+
+.navbar {
+  padding: 22px;
+}
+
+.container-fluid .active {
+  /* color: black; */
+  color: rgb(231, 29, 29) !important;
+}
+
+.active {
+}
+
+.three-d-image img {
+  width: 500px !important;
+  height: 360px;
+}
+.three-d-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-props img {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header {
+  width: 100%;
+  height: 700px !important;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+.cljaa .btn-get-started {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: black;
+  transition: 1.2s;
+}
+
+.cljaa .btn-get-started:hover {
+  background-color: #3498db;
+  color: white;
+  font-size: 19px;
+}
+
+.contact-us-container {
+  font-weight: 50px;
+  color: #fff;
+  width: 68%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 120px !important;
+}
+
+.second-section {
+  text-align: center;
+  height: 36vh;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.second-section h5 {
+  color: rgb(96, 177, 214);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.icon {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  height: 150px;
+  line-height: 150px;
+  width: 150px;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  /* background-color: blue; */
+}
+
+.process-standard-area {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 16, 45, 1) 0%,
+    rgba(0, 89, 252, 1) 50%
+  ) !important;
+  height: 82vh;
+  margin-bottom: 120px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
