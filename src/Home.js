@@ -47,7 +47,7 @@ const Home = () => {
       <section className="second-section">
         <h5>Our Service</h5>
         <h2>We Provide the Cloud & Rental Solution</h2>
-        <p style={{ width: "70%", margin: "auto", padding: 20, fontSize: 20 }}>
+        <p >
           Global Consultancy Solutions is a leading provider of Cloud,
           Colocation & rental solutions. We offer a full range of services to
           manage your business with high technology tool. Our team of experts

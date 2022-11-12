@@ -10,9 +10,9 @@ body {
   background-color: rgba(black, 0.5);
 }
 
-* {
+/* * {
   font-family: "Baloo Bhai 2", cursive;
-}
+} */
 
 .background-nav {
   background-color: whitesmoke;
@@ -43,30 +43,27 @@ code {
 .navbar-nav .nav-link {
   list-style: none;
   text-decoration: none;
-  color: rgb(0, 0, 0) !important;
+  color: white !important;
   font-weight: 800;
 }
 .navbar-nav .nav-link:hover {
   color: rgb(231, 29, 29) !important;
 }
 
-.navbar-brand {
-  color: black;
-}
+/* .navbar-brand {
+  color: black !important;
+} */
 .navbar-brand:hover {
   color: rgb(231, 29, 29);
 }
 
 .navbar {
-  padding: 22px;
+  padding: 13px;
 }
 
 .container-fluid .active {
   /* color: black; */
   color: rgb(231, 29, 29) !important;
-}
-
-.active {
 }
 
 .three-d-image img {
@@ -133,7 +130,7 @@ code {
   width: 68%;
   margin: auto;
   border-radius: 10px;
-  margin-top: 120px !important;
+  margin-top: 10vh !important;
 }
 
 .second-section {
@@ -141,6 +138,12 @@ code {
   height: 36vh;
   padding-top: 10px;
   margin-bottom: 100px;
+}
+.second-section p {
+  width: 70%;
+  margin: auto;
+  padding: 20;
+  font-size: 20;
 }
 
 .second-section h5 {
@@ -176,3 +179,109 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+/* Product */
+.card .card-img img {
+  border-radius: 12px;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* height: 48%; */
+  margin: 6vh auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 26px #ff9b9b;
+  border-radius: 22px;
+}
+
+.main-content .card {
+  width: 33.3%;
+  border-radius: 15px;
+  flex-direction: column;
+  position: relative;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .main-content .card {
+    width: 100%;
+  }
+
+  .contact-us-container {
+    width: 100%;
+  }
+
+  .parent {
+    padding: 0px !important;
+  }
+}
+/*
+$roboto: 'Roboto';
+#cta : #fe803039
+#bg : #272b34;
+#light_bg : #2d343e;
+#text: #2d343e; */
+
+.card-img img {
+  width: 100% !important;
+}
+
+body {
+  width: 100%;
+  width: 100%;
+  position: relative;
+  font-family: "Varela Round";
+}
+
+.dFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 50px 20px 50px;
+  /* background-color: #272b34; */
+}
+
+.card-header p {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  margin: 25px 0 !important;
+}
+
+#price {
+  color: red;
+  position: absolute;
+  bottom: 0.4rem;
+  right: 1rem;
+  font-size: 40px;
+}
+
+.card:hover {
+  background-color: #2d343e;
+  transform: scale(1);
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgb(146, 121, 121);
+}
+
+.thumb img {
+  width: 100%;
+}
+
+/* .collapse {
+  height: 90vh !important;
+  transition: 0.4s ease-in;
+} */

@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-
+import { FaShoppingCart } from "react-icons/fa"
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark background-nav">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark  background-nav">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             Global Consultancy
@@ -44,6 +44,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+
+
+        </div>
+        <div style={{ cursor: "pointer" }}>
+          {/* <Dropdown alignRight> */}
+          <FaShoppingCart color="white" fontSize="25px" />
+          {/* </Dropdown> */}
         </div>
       </nav>
     </div>

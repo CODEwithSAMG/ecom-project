@@ -6,18 +6,23 @@ import Home from "./Home";
 import Product from "./Product";
 import ContactUs from "./ContactUs";
 
-
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/content" element={<ContactUs />} />
-        <Route exact path="/product" element={<Product />} />
-      </Routes>
-      <Footer />
-
+      <div className="parent">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/content" element={<ContactUs />} />
+          <Route
+            className="product-container"
+            exact
+            path="/product"
+            element={<Product />}
+          />
+        </Routes>
+      </div>
+      {/* <Footer /> */}
     </>
   );
 }
