@@ -16,7 +16,7 @@ const ContactUs = () => {
                     Full Name
                   </label>
                   <input
-                    placeholder="Enter Your Name"
+                    placeholder="Global Consultancy"
                     type="text"
                     class="form-control"
                   />
@@ -26,8 +26,20 @@ const ContactUs = () => {
                     Email
                   </label>
                   <input
-                    placeholder="Enter Your Email Id"
+                    placeholder="support@globalconsultancycom"
                     type="email"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">
+                    Address
+                  </label>
+                  <input
+
+                    placeholder=" Sonipat jatvda house no 562/1"
+                    type="number"
                     class="form-control"
                     id="exampleInputPassword1"
                   />
@@ -37,27 +49,17 @@ const ContactUs = () => {
                     Phone Number
                   </label>
                   <input
-                    placeholder="Enter Your Phone Number"
+                    placeholder="9050510783"
                     type="number"
                     class="form-control"
                     id="exampleInputPassword1"
                   />
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    name=""
-                    id=""
-                    rows="4"
-                  ></textarea>
-                </div>
 
-                <button type="submit" class="btn btn-primary mb-4">
+
+                {/* <button type="submit" class="btn btn-primary mb-4">
                   Submit
-                </button>
+                </button> */}
               </form>
             </div>
           </div>

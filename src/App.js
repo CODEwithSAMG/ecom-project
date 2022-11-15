@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Product from "./Product";
 import ContactUs from "./ContactUs";
+import Context from "./context/Context";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="parent">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/content" element={<ContactUs />} />
+          <Route path="/content" element={<ContactUs />} />
           <Route
             className="product-container"
             exact
@@ -22,7 +23,8 @@ function App() {
           />
         </Routes>
       </div>
-      {/* <Footer /> */}
+      <Footer />
+
     </>
   );
 }
