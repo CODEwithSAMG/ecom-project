@@ -1,7 +1,7 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa"
-
+import Footer from "./Footer"
 const Navbar = () => {
   return (
     <div>
@@ -25,7 +25,6 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
-                  exact
                   className="nav-link"
                   aria-current="page"
                   to="/"
@@ -34,7 +33,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link " to="/content">
+                <NavLink className="nav-link " to="/contact">
                   Contact Us
                 </NavLink>
               </li>
@@ -46,7 +45,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-
+{/* <Footer/> */}
         </div>
         <div className="shopping-cart-icon" style={{ cursor: "pointer", }}>
           {/* <Dropdown alignRight> */}
