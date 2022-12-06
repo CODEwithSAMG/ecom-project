@@ -5,12 +5,13 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Product from "./Product";
 import ContactUs from "./ContactUs";
-
-function App() {
+import Terms from "./Terms"
+import PrivacyPolicy from "./PrivacyPolicy";
+function App () {
   return (
     <>
       <Navbar />
-      {/* <div className="parent"> */}
+      <div className="parent">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/contact" element={<ContactUs />} />
@@ -20,8 +21,10 @@ function App() {
             path="/product"
             element={<Product />}
           />
+          <Route path="/terms&condition" element={<Terms />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         </Routes>
-      {/* </div> */}
+      </div>
       <Footer />
 
     </>

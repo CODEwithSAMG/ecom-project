@@ -14,7 +14,7 @@ const Product = () => {
     // fontWeight: 400,
   };
   const listItems = product_card.map((val) => (
-    <div className="card" key={val.id}>
+    <div className=" card" key={val.id}>
       <div className="card-img">
         <img src={val.thumb} alt="image" />
       </div>

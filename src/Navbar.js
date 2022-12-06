@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink,Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa"
 import Footer from "./Footer"
 const Navbar = () => {
@@ -42,10 +42,20 @@ const Navbar = () => {
                   Products
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/terms&condition">
+                  Terms and Conditions
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/privacypolicy">
+                  Privacy Policy
+                </NavLink>
+              </li>
             </ul>
           </div>
 
-{/* <Footer/> */}
+          {/* <Footer/> */}
         </div>
         <div className="shopping-cart-icon" style={{ cursor: "pointer", }}>
           {/* <Dropdown alignRight> */}
